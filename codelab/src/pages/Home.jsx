@@ -1,8 +1,11 @@
 function Home() {
   return (
     <div>
-      <h1>Welcome to Bornholmer Tours</h1>
-      <p>Explore our tours and services!</p>
+      <h1>Bornholmer Tours</h1>
+      <p>Velkommen til Bornholmer Tours – Din guide
+          til Bornholms bedste outdoor oplevelser
+      </p>
+
     </div>
   );
 }
