@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "react-router";
+import { useNavigate } from "react-router"; {/*useNavigate() giver en funktion (navigate) som kan ændre URL'en uden at refreshe siden. */}
 import AuthFacade from "../AuthFacade";
 import '../styles/login.css';
 
@@ -9,7 +9,7 @@ function Login(){
   const navigate = useNavigate();
 
   async function handleLogin(e) {
-    e.preventDefault();
+    e.preventDefault(); {/*"Stop, browser — skal ikke reloade siden. React håndterer dette selv." */}
     try {
       await AuthFacade.login(userId, password);
       navigate("/admin");

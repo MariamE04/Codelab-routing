@@ -12,3 +12,6 @@ function App() {
 }
 
 export default App
+
+
+{/*Header vises altid og Outlet viser indhold fra den valgte route */}
